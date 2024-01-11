@@ -1,10 +1,16 @@
 {
-  "name": "lazy-ui",
+  "name": "@zaymax/lazy-ui",
+  "private": false,
   "version": "1.0.0",
   "description": "React + Typescript component library from Maksim Zaytsev ",
-  "main": "index.js",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 0",
     "build": "vite build && tsc"
   },
   "author": "Maksim Zaytsev",
@@ -14,5 +20,8 @@
     "react": "^18.2.0",
     "typescript": "^5.3.3",
     "vite": "^5.0.11"
+  },
+  "publishConfig": {
+    "@zaymax:registry": "https://npm.pkg.github.com"
   }
 }

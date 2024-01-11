@@ -1,0 +1,18 @@
+{
+  "name": "lazy-ui",
+  "version": "1.0.0",
+  "description": "React + Typescript component library from Maksim Zaytsev ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build && tsc"
+  },
+  "author": "Maksim Zaytsev",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.47",
+    "react": "^18.2.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.11"
+  }
+}

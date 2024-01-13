@@ -1,0 +1,12 @@
+.lui-input {
+    padding: 4px;
+}
+
+.lui-input:hover {
+    border-color: #4096ff;
+}
+
+.lui-input:active {
+    border-color: #1677ff;
+}
+
